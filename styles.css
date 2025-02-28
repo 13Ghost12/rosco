@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: url('https://p4.wallpaperbetter.com/wallpaper/2/937/253/portrait-display-vertical-pattern-digital-art-wallpaper-preview.jpg') no-repeat center center fixed;
+    color: white;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 2em;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#tiempo {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px (0, 0, 0, 1);
+}
+
+.rosco {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+.letra {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #0099ff;
+    color: white;
+    font-weight: bold;
+    transition: background 0.3s;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 1);
+}
+
+.correcto {
+    background-color: #1be001;
+}
+
+.incorrecto {
+    background-color: #e9031a;
+}
+
+.pasapalabra {
+    background-color: #ffcc00;
+}
+
+.pregunta-container {
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.pregunta {
+    font-weight: bold;
+    color: black;
+}
+
+input {
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn-responder {
+    background-color: #12be3b;
+    color: white;
+    font-weight: bold;
+}
+
+#btn-pasapalabra {
+    background-color: #ffcc00;
+    color: black;
+    font-weight: bold;
+}
