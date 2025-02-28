@@ -36,7 +36,7 @@ const btnPasapalabra = document.getElementById("btn-pasapalabra");
 const tiempoElemento = document.getElementById("tiempo");
 
 let indiceActual = 0;
-let tiempo = 180;
+let tiempo = 240;
 let intervalo;
 
 function iniciarRosco() {
